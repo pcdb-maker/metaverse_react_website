@@ -9,14 +9,7 @@
   }
 }
 
-.animated-wrapper {
-  animation-name: move-wrapper;
-  animation-duration: 25s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  position: absolute;
-}
+
 
 @keyframes move-wrapper {
   0% {
