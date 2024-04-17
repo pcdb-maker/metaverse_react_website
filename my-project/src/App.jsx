@@ -8,9 +8,8 @@ import Features from "./Components/Features/Features";
 import AppStore from "./Components/AppStore/AppStore";
 import Footer from "./Components/Footer/Footer";
 import PopupPlayer from "./Components/PopupPlayer/PopupPlayer";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
+//import AOS from "aos";
+//import "aos/dist/aos.css";
 
 const App = () => {
   const [isPlay, setIsPlay] = useState(false);
@@ -19,7 +18,7 @@ const App = () => {
     setIsPlay(!isPlay);
   };
 
-  useEffect(() => {
+/*   useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 800,
@@ -27,7 +26,7 @@ const App = () => {
       delay: 100,
     });
     AOS.refresh();
-  }, []);
+  }, []); */
 
   return (
     <main className="overflow-x-hidden bg-white dark:bg-black text-black dark:text-white duration-300">
