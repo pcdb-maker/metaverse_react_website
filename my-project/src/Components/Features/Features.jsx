@@ -23,7 +23,7 @@ const FeaturesData = [
     aosDelay: "500",
   },
   {
-    name: "Experience Reality",
+    name: "Experience Virtual Reality",
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),

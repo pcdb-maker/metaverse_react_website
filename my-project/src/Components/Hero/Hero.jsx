@@ -11,9 +11,9 @@ const Hero = ({ togglePlay }) => {
             {/* hero text section */}
             <div className="order-2 sm:order-1 space-y-5 lg:pr-20 relative z-30">
               <h1 data-aos="fade-up" data className="text-4xl font-semibold">
-                GET READY TO ENJ0Y VR{" "}
+                GET READY TO ENJOY VR{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-                  GAMES WITH OUR PLATFORM
+                  GAMES WITH OUR PLATFORM!
                 </span>
               </h1>
               <p data-aos="fade-up" data-aos-delay="300">
